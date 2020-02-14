@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{fragments/main_layout}">
+<head>
+	<title>WELCOME to SNEHAL'S App</title>
+</head>
+<body>
+	<div layout:fragment="content" class="container mySpace">
+		<div>
+			There is an Error  |<span th:text="${message}"></span>| <span th:text="${status}" class="text text-danger"></span>
+		</div>
+		
+		<div>
+			Please Contact Snehal if you Getting This!!!!!!!!!!!
+		</div>
+	</div>
+</body>
+</html>
