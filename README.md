@@ -12,7 +12,7 @@ Steps to Setup the Spring Boot Back end app (Spring-Project)
 
 1. Clone the application 
 
-      git clone https://github.com/snehal-bagde/Polling-Application.git 
+      git clone https://github.com/snehal-bagde/Spring-Security-Project.git
       cd Spring-Project 
 
 2. Create MySQL database 
